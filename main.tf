@@ -9,7 +9,7 @@ module "apache" {
 
   vpc_id = "vpc-01c7fe959d96f3a67"
   my_ip_with_cidr = "84.19.149.2/32"
-  public_key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAII8AK1etQW1h389Yx8dwWKXbhAUFpA+vVKMNyvz1u8DT carlzxc71@gmail.com"
+  public_key = "ssh-ed25519 00000000 username"
   instance_type = "t2.micro"
 }
 
