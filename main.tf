@@ -13,6 +13,6 @@ module "apache" {
   instance_type = "t2.micro"
 }
 
-output "pulbic_ip" {
+output "public_ip" {
   value = module.apache.public_ip
 }
